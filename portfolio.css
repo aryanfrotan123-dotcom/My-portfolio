@@ -23,6 +23,7 @@ h1, h2, h3{
 p{
     /* color: rgba(196, 175, 145, 0.842); */
     color: rgba(224, 216, 202, 0.842);
+    font-size: 15px;
 }
 .flex{
     display: flex;
@@ -41,9 +42,9 @@ p{
 }
 #header li{
     list-style-type: none;
-    background-color: rgb(44, 40, 26);
+    /* background-color: rgb(44, 40, 26); */
     color: white;
-    margin: 0px 15px;
+    margin: 0px 10px;
 }
 #header li a{
     text-decoration: none;
@@ -52,7 +53,7 @@ p{
     font-weight: 600;
 }
 #header li a:hover, #header li a:active{
-    font-size: 13px;
+    font-size: 12px;
 }
 /* #header li a:active{
     font-size: 13px;
@@ -169,6 +170,7 @@ p{
 #path-container > :nth-child(2){
     font-size: 13px;
     color: rgb(130, 130, 130);
+    text-align: center;
 }
 #path{
     display: flex;
@@ -225,7 +227,7 @@ p{
     text-align: center;
     margin: 15px 0px;
     width: 85%;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .card:hover {
   transform: scale(1.05);
