@@ -262,22 +262,20 @@ p{
 }
 .contact p{
     width: 80%;
-    /* margin-top: 30px; */
-    /* margin: 20px; */
 }
 #top{
     position: fixed;
     right: 0;
     bottom: 0;
     margin: 20px;
-    /* padding: 10px; */
     border-radius: 50%;
     width: 50px;
     height: 50px;
     border: 0;
     background-color: orange;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    color: black;
 }
 .thanks{
     flex-direction: column;
